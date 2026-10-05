@@ -2,5 +2,7 @@
   "name": "Syed Irfan - Academic & PhD Research Profile",
   "description": "Personal research website of Syed Irfan exploring machine learning, representation learning, large language models, and multimodal AI for complex and high-dimensional data.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
