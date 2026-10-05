@@ -1,1 +1,1 @@
-# Syed Irfan — Academic Profile
+# Syed Irfan Academic Profile
