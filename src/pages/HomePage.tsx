@@ -17,7 +17,7 @@ export const HomePage: React.FC<HomePageProps> = () => {
     <div className="py-10 md:py-14 space-y-12">
       
       {/* Hero Overview */}
-      <div className="max-w-5xl mx-auto px-6" style={{ width: '1499px', height: '468.625px' }}>
+      <div className="max-w-5xl mx-auto px-4 sm:px-6">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-10 items-start">
           
           {/* Left Column: Portrait & Personal Details */}
@@ -119,10 +119,10 @@ export const HomePage: React.FC<HomePageProps> = () => {
             </p>
 
             <p>
-              My academic and independent work spans <strong className="font-semibold text-stone-950">machine learning, deep learning, NLP, and generative AI</strong>, including a PyTorch-based <strong className="font-semibold text-stone-950">DCGAN for face generation</strong>, network traffic prediction, intrusion detection, Bangla OCR and summarization, and LLM-based applications. These experiences have shaped my interests in <strong className="font-semibold text-stone-950">representation learning, transfer learning, large language models, multimodal learning, and optimization</strong>.
+              My academic and independent work spans <strong className="font-semibold text-stone-950">machine learning, deep learning, NLP, and generative AI</strong>, including synthetic face generation using GAN, network traffic prediction, intrusion detection, Bangla OCR and summarization, and LLM-based applications. These experiences have shaped my interests in <strong className="font-semibold text-stone-950">representation learning, transfer learning, large language models, multimodal learning, and optimization</strong>.
             </p>
 
-            <p style={{ width: '644.344px' }}>
+            <p>
               I am interested in pursuing doctoral research on developing intelligent systems that can learn effectively from <strong className="font-semibold text-stone-950">complex, high-dimensional, and multimodal data</strong>, with growing interests in <strong className="font-semibold text-stone-950">deep learning, representation learning, foundation models, and multimodal AI</strong>.
             </p>
           </div>

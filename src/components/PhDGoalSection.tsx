@@ -3,8 +3,8 @@ import { PROFILE_DATA } from '../data/profileData';
 
 export const PhDGoalSection: React.FC = () => {
   return (
-    <section id="research-interests" className="py-8">
-      <div className="max-w-5xl mx-auto px-6 space-y-6">
+    <section id="research-interests" className="py-6 sm:py-8">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 space-y-6">
         
         <div>
           <h2 className="text-xl sm:text-2xl font-editorial font-medium tracking-tight text-stone-950">
@@ -18,7 +18,7 @@ export const PhDGoalSection: React.FC = () => {
           </p>
 
           {/* Research Themes */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-5 pt-1">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 pt-1">
             {PROFILE_DATA.researchThemes.map((theme) => (
               <div 
                 key={theme.title}

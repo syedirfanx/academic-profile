@@ -4,8 +4,8 @@ import { PROFILE_DATA } from '../data/profileData';
 
 export const SelectedProjects: React.FC = () => {
   return (
-    <section id="projects" className="py-10">
-      <div className="max-w-5xl mx-auto px-6 space-y-10">
+    <section id="projects" className="py-8 md:py-10">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 space-y-10">
         
         <div>
           <h2 className="text-xl sm:text-2xl font-editorial font-medium tracking-tight text-stone-950">

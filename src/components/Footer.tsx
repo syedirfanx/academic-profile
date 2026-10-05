@@ -12,8 +12,8 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
   };
 
   return (
-    <footer className="py-10 text-xs text-stone-500 border-t border-stone-200 mt-12">
-      <div className="max-w-5xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+    <footer className="py-8 sm:py-10 text-xs text-stone-500 border-t border-stone-200 mt-12">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
         <div>
           <span className="font-semibold text-stone-900">Syed Irfan</span> · Dhaka, Bangladesh
         </div>

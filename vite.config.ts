@@ -4,7 +4,7 @@ import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
-  let base = './academic-profile/';
+  let base = './';
   if (process.env.GITHUB_REPOSITORY) {
     const repoName = process.env.GITHUB_REPOSITORY.split('/')[1];
     base = repoName.endsWith('.github.io') ? '/' : `/${repoName}/`;

@@ -6,8 +6,8 @@ export const ResearchSection: React.FC = () => {
   const undergrad = PROFILE_DATA.undergradResearch;
 
   return (
-    <section id="research" className="py-10 border-b border-stone-200">
-      <div className="max-w-5xl mx-auto px-6 space-y-10">
+    <section id="research" className="py-8 md:py-10 border-b border-stone-200">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 space-y-10">
         
         {/* RESEARCH EXPERIENCE */}
         <div className="space-y-6">
