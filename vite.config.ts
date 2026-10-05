@@ -4,8 +4,14 @@ import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
+  let base = './';
+  if (process.env.GITHUB_REPOSITORY) {
+    const repoName = process.env.GITHUB_REPOSITORY.split('/')[1];
+    base = repoName.endsWith('.github.io') ? '/' : `/${repoName}/`;
+  }
+
   return {
-    base: '/academic-profile/',
+    base,
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
