@@ -41,11 +41,11 @@ export const SelectedProjects: React.FC = () => {
                       href={project.githubUrl}
                       target="_blank"
                       rel="noreferrer noopener"
-                      className="inline-flex items-center gap-1 font-medium text-blue-600 hover:text-blue-800 underline hover:underline"
+                      className="inline-flex items-center gap-1 font-medium text-cyan-700 hover:text-cyan-900 underline hover:underline"
                     >
-                      <Github className="w-3.5 h-3.5 text-blue-600" />
+                      <Github className="w-3.5 h-3.5 text-cyan-700" />
                       <span>GitHub</span>
-                      <ExternalLink className="w-2.5 h-2.5 text-blue-400" />
+                      <ExternalLink className="w-2.5 h-2.5 text-cyan-500" />
                     </a>
                   </>
                 )}
@@ -56,11 +56,11 @@ export const SelectedProjects: React.FC = () => {
                       href={project.demoUrl}
                       target="_blank"
                       rel="noreferrer noopener"
-                      className="inline-flex items-center gap-1 font-medium text-blue-600 hover:text-blue-800 underline hover:underline"
+                      className="inline-flex items-center gap-1 font-medium text-cyan-700 hover:text-cyan-900 underline hover:underline"
                     >
-                      <Globe className="w-3.5 h-3.5 text-blue-600" />
+                      <Globe className="w-3.5 h-3.5 text-cyan-700" />
                       <span>Live Demo</span>
-                      <ExternalLink className="w-2.5 h-2.5 text-blue-400" />
+                      <ExternalLink className="w-2.5 h-2.5 text-cyan-500" />
                     </a>
                   </>
                 )}
@@ -71,11 +71,11 @@ export const SelectedProjects: React.FC = () => {
                       href={project.videoUrl}
                       target="_blank"
                       rel="noreferrer noopener"
-                      className="inline-flex items-center gap-1 font-medium text-blue-600 hover:text-blue-800 underline hover:underline"
+                      className="inline-flex items-center gap-1 font-medium text-cyan-700 hover:text-cyan-900 underline hover:underline"
                     >
-                      <Video className="w-3.5 h-3.5 text-blue-600" />
+                      <Video className="w-3.5 h-3.5 text-cyan-700" />
                       <span>Video Demo</span>
-                      <ExternalLink className="w-2.5 h-2.5 text-blue-400" />
+                      <ExternalLink className="w-2.5 h-2.5 text-cyan-500" />
                     </a>
                   </>
                 )}

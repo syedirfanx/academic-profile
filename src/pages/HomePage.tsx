@@ -111,10 +111,10 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenCV }) => {
                   <span className="text-stone-300 select-none">·</span>
                   <button
                     onClick={onOpenCV}
-                    className="inline-flex items-center gap-1.5 font-semibold text-blue-600 hover:text-blue-800 hover:underline transition-colors cursor-pointer"
+                    className="inline-flex items-center gap-1.5 font-semibold text-cyan-700 hover:text-cyan-900 hover:underline transition-colors cursor-pointer"
                     title="View Curriculum Vitae"
                   >
-                    <FileText className="w-4 h-4 text-blue-600 shrink-0" />
+                    <FileText className="w-4 h-4 text-cyan-700 shrink-0" />
                     <span>CV</span>
                   </button>
                 </>
@@ -124,21 +124,57 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenCV }) => {
           </div>
 
           {/* Right Column: Narrative Biography */}
-          <div className="md:col-span-8 space-y-4 text-sm sm:text-[15px] text-stone-700 leading-relaxed font-normal pt-1">
+          <div className="md:col-span-8 space-y-4 text-[15px] sm:text-[16px] text-stone-700 leading-relaxed font-normal pt-1">
             <h2 className="text-xl sm:text-2xl font-editorial font-medium tracking-tight text-stone-950 pb-1">
               Overview
             </h2>
 
             <p>
-              I am a <strong className="font-semibold text-stone-950">Data Science and Machine Learning researcher</strong> with an <strong className="font-semibold text-stone-950">MSc in Data Science from the University of Greenwich, London</strong>. My research experience includes <strong className="font-semibold text-stone-950">machine learning, high-dimensional data, feature selection, and optimization</strong>, with my MSc dissertation focusing on Particle Swarm Optimization and Dispersive Flies Optimization. I also contributed to an <strong className="font-semibold text-stone-950">IEEE-published undergraduate research project on rice leaf disease detection</strong>.
+              I am a Machine Learning researcher with an MSc in Data Science from the{' '}
+              <a
+                href="https://www.gre.ac.uk/"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="text-cyan-700 hover:text-cyan-900 hover:underline font-medium"
+              >
+                University of Greenwich, London
+              </a>
+              . My MSc dissertation focused on Swarm Intelligence and Dispersive Flies Optimization, supervised by{' '}
+              <a
+                href="https://www.gre.ac.uk/people/rep/faculty-of-engineering-and-science/dr-mohammad-majid-al-rifaie"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="text-cyan-700 hover:text-cyan-900 hover:underline font-medium"
+              >
+                Dr. Mohammad Majid al-Rifaie
+              </a>
+              . While pursuing my bachelor's degree at{' '}
+              <a
+                href="https://www.northsouth.edu/"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="text-cyan-700 hover:text-cyan-900 hover:underline font-medium"
+              >
+                North South University
+              </a>
+              , I also contributed to an IEEE-published undergraduate research project on rice leaf disease detection, supervised by{' '}
+              <a
+                href="https://ece.northsouth.edu/people/dr-sifat-momen/"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="text-cyan-700 hover:text-cyan-900 hover:underline font-medium"
+              >
+                Dr. Sifat Momen
+              </a>
+              .
             </p>
 
             <p>
-              My academic and independent work spans <strong className="font-semibold text-stone-950">machine learning, deep learning, NLP, and generative AI</strong>, including synthetic face generation using GAN, network traffic prediction, intrusion detection, Bangla OCR and summarization, and LLM-based applications. These experiences have shaped my interests in <strong className="font-semibold text-stone-950">representation learning, transfer learning, large language models, multimodal learning, and optimization</strong>.
+              My work spans machine learning, deep learning and generative AI, including image generation using GAN, network traffic prediction, network intrusion detection and LLM based applications. These experiences have shaped my interests in representation learning, transfer learning, large language models, multimodal learning and optimization.
             </p>
 
             <p>
-              <strong className="font-semibold text-stone-950">Current Interests:</strong> I am interested in pursuing doctoral research on developing intelligent systems that can learn effectively from <strong className="font-semibold text-stone-950">complex, high-dimensional, and multimodal data</strong>, with growing interests in <strong className="font-semibold text-stone-950">deep learning, representation learning, foundation models, and multimodal AI</strong>.
+              <strong className="font-semibold text-stone-950">Current Interests:</strong> I am interested in pursuing doctoral research on developing intelligent systems that can learn effectively from complex, high-dimensional, and multimodal data, with growing interests in deep learning, representation learning, foundation models, and multimodal AI.
             </p>
           </div>
 

@@ -32,16 +32,24 @@ export const ResearchSection: React.FC = () => {
                 href="https://github.com/syedirfanx/swarm-intelligence"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="inline-flex items-center gap-1 text-xs sm:text-sm font-medium text-blue-600 hover:text-blue-800 hover:underline"
+                className="inline-flex items-center gap-1 text-xs sm:text-sm font-medium text-cyan-700 hover:text-cyan-900 hover:underline"
               >
-                (<Github className="w-3 h-3 inline text-blue-600" />
+                (<Github className="w-3 h-3 inline text-cyan-700" />
                 <span>GitHub</span>
-                <ExternalLink className="w-2.5 h-2.5 inline text-blue-400" />)
+                <ExternalLink className="w-2.5 h-2.5 inline text-cyan-500" />)
               </a>
             </div>
 
             <div className="text-xs sm:text-sm text-stone-600">
-              <strong className="text-stone-800 font-medium">Supervisor:</strong> Dr. Mohammed Majid Al-Rifaie
+              <strong className="text-stone-800 font-medium">Supervisor:</strong>{' '}
+              <a
+                href="https://www.gre.ac.uk/people/rep/faculty-of-engineering-and-science/dr-mohammad-majid-al-rifaie"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="text-cyan-700 hover:text-cyan-900 hover:underline"
+              >
+                Dr. Mohammad Majid al-Rifaie
+              </a>
             </div>
 
             <ul className="space-y-1.5 text-sm text-stone-700 pt-1 list-disc pl-5 leading-relaxed">
@@ -75,17 +83,25 @@ export const ResearchSection: React.FC = () => {
                   href={undergrad.githubUrl}
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="inline-flex items-center gap-1 text-xs sm:text-sm font-medium text-blue-600 hover:text-blue-800 hover:underline"
+                  className="inline-flex items-center gap-1 text-xs sm:text-sm font-medium text-cyan-700 hover:text-cyan-900 hover:underline"
                 >
-                  (<Github className="w-3 h-3 inline text-blue-600" />
+                  (<Github className="w-3 h-3 inline text-cyan-700" />
                   <span>GitHub</span>
-                  <ExternalLink className="w-2.5 h-2.5 inline text-blue-400" />)
+                  <ExternalLink className="w-2.5 h-2.5 inline text-cyan-500" />)
                 </a>
               )}
             </div>
 
             <div className="text-xs sm:text-sm text-stone-600">
-              <strong className="text-stone-800 font-medium">Supervisor:</strong> Dr. Sifat Momen
+              <strong className="text-stone-800 font-medium">Supervisor:</strong>{' '}
+              <a
+                href="https://ece.northsouth.edu/people/dr-sifat-momen/"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="text-cyan-700 hover:text-cyan-900 hover:underline"
+              >
+                Dr. Sifat Momen
+              </a>
             </div>
 
             <ul className="space-y-1.5 text-sm text-stone-700 pt-1 list-disc pl-5 leading-relaxed">
@@ -115,10 +131,10 @@ export const ResearchSection: React.FC = () => {
                 href={undergrad.scholarUrl}
                 target="_blank"
                 rel="noreferrer noopener"
-                className="inline-flex items-center gap-1 font-medium text-blue-600 hover:text-blue-800 hover:underline"
+                className="inline-flex items-center gap-1 font-medium text-cyan-700 hover:text-cyan-900 hover:underline"
               >
                 <span>Google Scholar</span>
-                <ExternalLink className="w-3 h-3 text-blue-500" />
+                <ExternalLink className="w-3 h-3 text-cyan-600" />
               </a>
             </div>
           </div>

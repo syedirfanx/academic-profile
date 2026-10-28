@@ -93,22 +93,22 @@ export const CVModal: React.FC<CVModalProps> = ({ isOpen, onClose }) => {
             
             {/* Contact Details */}
             <div className="flex flex-wrap items-center justify-center gap-x-3.5 gap-y-1 text-xs text-stone-700 pt-1">
-              <a href="mailto:syedirfaanx@gmail.com" className="inline-flex items-center gap-1 hover:text-blue-600 hover:underline">
+              <a href="mailto:syedirfaanx@gmail.com" className="inline-flex items-center gap-1 hover:text-cyan-700 hover:underline">
                 <Mail className="w-3 h-3 text-stone-500" />
                 <span>syedirfaanx@gmail.com</span>
               </a>
               <span className="text-stone-300">·</span>
-              <a href="tel:+8801336946358" className="inline-flex items-center gap-1 hover:text-blue-600 hover:underline">
+              <a href="tel:+8801336946358" className="inline-flex items-center gap-1 hover:text-cyan-700 hover:underline">
                 <Phone className="w-3 h-3 text-stone-500" />
                 <span>+880 1336946358</span>
               </a>
               <span className="text-stone-300">·</span>
-              <a href="https://linkedin.com/in/syedirfanx" target="_blank" rel="noreferrer noopener" className="inline-flex items-center gap-1 hover:text-blue-600 hover:underline">
+              <a href="https://linkedin.com/in/syedirfanx" target="_blank" rel="noreferrer noopener" className="inline-flex items-center gap-1 hover:text-cyan-700 hover:underline">
                 <Linkedin className="w-3 h-3 text-stone-500" />
                 <span>linkedin.com/in/syedirfanx</span>
               </a>
               <span className="text-stone-300">·</span>
-              <a href="https://github.com/syedirfanx" target="_blank" rel="noreferrer noopener" className="inline-flex items-center gap-1 hover:text-blue-600 hover:underline">
+              <a href="https://github.com/syedirfanx" target="_blank" rel="noreferrer noopener" className="inline-flex items-center gap-1 hover:text-cyan-700 hover:underline">
                 <Github className="w-3 h-3 text-stone-500" />
                 <span>github.com/syedirfanx</span>
               </a>
@@ -169,7 +169,7 @@ export const CVModal: React.FC<CVModalProps> = ({ isOpen, onClose }) => {
                   href="https://github.com/syedirfanx/swarm-intelligence"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="font-sans not-italic text-blue-600 hover:underline inline-flex items-center gap-0.5"
+                  className="font-sans not-italic text-cyan-700 hover:text-cyan-900 hover:underline inline-flex items-center gap-0.5"
                 >
                   (github.com/syedirfanx/swarm-intelligence <ExternalLink className="w-2.5 h-2.5 inline" />)
                 </a>
@@ -228,25 +228,25 @@ export const CVModal: React.FC<CVModalProps> = ({ isOpen, onClose }) => {
             <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm text-stone-800">
               <li>
                 <strong className="font-semibold text-stone-950">Customer Revenue Forecasting</strong> (MSc coursework, COMP 1804 Applied Machine Learning): Benchmarked classification, regression, and clustering models on 1,000 customer records; Random Forest reached 93% accuracy and R² = 0.898.{' '}
-                <a href="https://github.com/syedirfanx/revenue-forecasting" target="_blank" rel="noreferrer noopener" className="text-blue-600 hover:underline">
+                <a href="https://github.com/syedirfanx/revenue-forecasting" target="_blank" rel="noreferrer noopener" className="text-cyan-700 hover:text-cyan-900 hover:underline">
                   (github.com/syedirfanx/revenue-forecasting)
                 </a>
               </li>
               <li>
                 <strong className="font-semibold text-stone-950">CelebA Face Generation using DCGAN</strong> (BSc coursework, CSE 465 Deep Learning): Implemented a custom Generator–Discriminator architecture in PyTorch and trained a DCGAN on 200,000+ CelebA images for 150 epochs to synthesize human face images.{' '}
-                <a href="https://github.com/syedirfanx/face-generation" target="_blank" rel="noreferrer noopener" className="text-blue-600 hover:underline">
+                <a href="https://github.com/syedirfanx/face-generation" target="_blank" rel="noreferrer noopener" className="text-cyan-700 hover:text-cyan-900 hover:underline">
                   (github.com/syedirfanx/face-generation)
                 </a>
               </li>
               <li>
                 <strong className="font-semibold text-stone-950">AI Network Intrusion Detection</strong> (Independent): Random Forest classifier trained on the NSL-KDD dataset, with feature importance analysis to identify key traffic indicators.{' '}
-                <a href="https://github.com/syedirfanx/ai-network-intrusion-detection" target="_blank" rel="noreferrer noopener" className="text-blue-600 hover:underline">
+                <a href="https://github.com/syedirfanx/ai-network-intrusion-detection" target="_blank" rel="noreferrer noopener" className="text-cyan-700 hover:text-cyan-900 hover:underline">
                   (github.com/syedirfanx/ai-network-intrusion-detection)
                 </a>
               </li>
               <li>
                 <strong className="font-semibold text-stone-950">AI Network Traffic Prediction and Resource Optimization</strong> (Independent): Applied Random Forest regression for network traffic forecasting (R² = 0.78), followed by rule-based resource allocation.{' '}
-                <a href="https://github.com/syedirfanx/ai-network-traffic-optimization" target="_blank" rel="noreferrer noopener" className="text-blue-600 hover:underline">
+                <a href="https://github.com/syedirfanx/ai-network-traffic-optimization" target="_blank" rel="noreferrer noopener" className="text-cyan-700 hover:text-cyan-900 hover:underline">
                   (github.com/syedirfanx/ai-network-traffic-optimization)
                 </a>
               </li>
@@ -271,11 +271,11 @@ export const CVModal: React.FC<CVModalProps> = ({ isOpen, onClose }) => {
                   Developed StarPals AI, an LLM based film-casting system using Genkit for script analysis, character extraction, and actor-role compatibility scoring.{' '}
                   <span className="text-stone-600">
                     (live:{' '}
-                    <a href="https://starpals-ai.vercel.app" target="_blank" rel="noreferrer noopener" className="text-blue-600 hover:underline">
+                    <a href="https://starpals-ai.vercel.app" target="_blank" rel="noreferrer noopener" className="text-cyan-700 hover:text-cyan-900 hover:underline">
                       starpals-ai.vercel.app
                     </a>
                     , github:{' '}
-                    <a href="https://github.com/syedirfanx/starpals-ai" target="_blank" rel="noreferrer noopener" className="text-blue-600 hover:underline">
+                    <a href="https://github.com/syedirfanx/starpals-ai" target="_blank" rel="noreferrer noopener" className="text-cyan-700 hover:text-cyan-900 hover:underline">
                       github.com/syedirfanx/starpals-ai
                     </a>
                     )
@@ -285,11 +285,11 @@ export const CVModal: React.FC<CVModalProps> = ({ isOpen, onClose }) => {
                   Designed Lifestyle OS, an AI assisted personal decision support system for organizing lifestyle, financial commitments, and long-term planning.{' '}
                   <span className="text-stone-600">
                     (live:{' '}
-                    <a href="https://lifestyle-os-tan.vercel.app" target="_blank" rel="noreferrer noopener" className="text-blue-600 hover:underline">
+                    <a href="https://lifestyle-os-tan.vercel.app" target="_blank" rel="noreferrer noopener" className="text-cyan-700 hover:text-cyan-900 hover:underline">
                       lifestyle-os-tan.vercel.app
                     </a>
                     , github:{' '}
-                    <a href="https://github.com/syedirfanx/lifestyle-os" target="_blank" rel="noreferrer noopener" className="text-blue-600 hover:underline">
+                    <a href="https://github.com/syedirfanx/lifestyle-os" target="_blank" rel="noreferrer noopener" className="text-cyan-700 hover:text-cyan-900 hover:underline">
                       github.com/syedirfanx/lifestyle-os
                     </a>
                     )

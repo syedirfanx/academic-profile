@@ -159,7 +159,7 @@ export function generateCVPdf() {
   doc.setFont('times', 'italic');
   doc.text("‘Feature Selection using Swarm Intelligence and Dispersive Flies Optimization’", marginX, y);
   doc.setFont('times', 'normal');
-  doc.setTextColor(30, 90, 180);
+  doc.setTextColor(14, 116, 144);
   doc.text(' (github.com/syedirfanx/swarm-intelligence)', marginX + doc.getTextWidth("‘Feature Selection using Swarm Intelligence and Dispersive Flies Optimization’"), y);
   doc.setTextColor(30, 30, 30);
   y += lineSpacing;
