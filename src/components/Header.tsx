@@ -25,7 +25,7 @@ export const Header: React.FC<HeaderProps> = ({ activePage, onNavigate }) => {
   };
 
   return (
-    <header className="sticky top-0 z-40 bg-[#FCFBF8]/95 backdrop-blur-md border-b border-stone-200">
+    <header className="sticky top-0 z-40 bg-[#F6F4EF]/95 backdrop-blur-md border-b border-stone-200">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
         
         {/* Wordmark brand */}
@@ -37,7 +37,7 @@ export const Header: React.FC<HeaderProps> = ({ activePage, onNavigate }) => {
         </button>
 
         {/* Desktop & Tablet Navigation Tabs */}
-        <nav className="hidden sm:flex items-center gap-4 md:gap-6 text-sm md:text-[15px] text-stone-600">
+        <nav className="hidden sm:flex items-center gap-4 md:gap-6 text-sm md:text-[15px] text-stone-800">
           {navItems.map((item) => {
             const isActive = activePage === item.id;
             return (
@@ -46,8 +46,8 @@ export const Header: React.FC<HeaderProps> = ({ activePage, onNavigate }) => {
                 onClick={() => handleNav(item.id)}
                 className={`transition-colors whitespace-nowrap pb-1 border-b-2 font-medium cursor-pointer ${
                   isActive
-                    ? 'text-stone-950 font-semibold border-stone-900'
-                    : 'text-stone-600 hover:text-stone-950 border-transparent hover:border-stone-300'
+                    ? 'text-stone-950 font-bold border-stone-950'
+                    : 'text-stone-800 hover:text-stone-950 border-transparent hover:border-stone-400'
                 }`}
               >
                 {item.label}
@@ -70,7 +70,7 @@ export const Header: React.FC<HeaderProps> = ({ activePage, onNavigate }) => {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="sm:hidden border-b border-stone-200 bg-[#FCFBF8] px-4 py-3 space-y-1 shadow-sm">
+        <div className="sm:hidden border-b border-stone-200 bg-[#F6F4EF] px-4 py-3 space-y-1 shadow-sm">
           <div className="flex flex-col gap-1 text-sm text-stone-700">
             {navItems.map((item) => (
               <button

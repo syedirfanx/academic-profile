@@ -24,7 +24,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenCV }) => {
           {/* Left Column: Portrait & Personal Details */}
           <div className="md:col-span-4 space-y-4 flex flex-col items-center md:items-start text-center md:text-left">
             <div className="w-48 sm:w-56 md:w-full max-w-[240px]">
-              <div className="aspect-square rounded border border-stone-300 overflow-hidden bg-stone-100 shadow-xs">
+              <div className="aspect-square rounded-sm border border-stone-300/80 overflow-hidden bg-stone-100 shadow-md shadow-stone-800/15">
                 {!imageError ? (
                   <img
                     src={portraitImg}
@@ -49,72 +49,72 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenCV }) => {
             </div>
 
             {/* Academic Credentials */}
-            <div className="text-xs sm:text-sm text-stone-700 border-l-2 border-stone-400 pl-3 py-1 space-y-1 text-left leading-relaxed w-full">
+            <div className="text-xs sm:text-sm text-stone-900 border-l-2 border-stone-500 pl-3 py-1 space-y-1 text-left leading-relaxed w-full">
               <div>
-                <strong className="text-stone-900 font-medium">MSc in Data Science</strong>
-                <div className="text-stone-600 text-xs">University of Greenwich, London</div>
+                <strong className="text-stone-950 font-semibold">MSc in Data Science</strong>
+                <div className="text-stone-800 text-xs font-normal">University of Greenwich, London</div>
               </div>
               <div>
-                <strong className="text-stone-900 font-medium">BSc in Computer Science &amp; Eng.</strong>
-                <div className="text-stone-600 text-xs">North South University, Dhaka</div>
+                <strong className="text-stone-950 font-semibold">BSc in Computer Science &amp; Eng.</strong>
+                <div className="text-stone-800 text-xs font-normal">North South University, Dhaka</div>
               </div>
             </div>
 
             {/* Links & Contact */}
-            <div className="flex flex-wrap items-center gap-x-3.5 gap-y-2 pt-2 text-xs sm:text-sm text-stone-700 w-full text-left">
+            <div className="flex flex-wrap items-center gap-x-3.5 gap-y-2 pt-2 text-xs sm:text-sm text-stone-900 w-full text-left">
               <a
                 href={PROFILE_DATA.github}
                 target="_blank"
                 rel="noreferrer noopener"
-                className="inline-flex items-center gap-1.5 font-medium text-stone-900 hover:text-stone-600 hover:underline transition-colors"
+                className="inline-flex items-center gap-1.5 font-medium text-stone-950 hover:text-stone-700 hover:underline transition-colors"
               >
-                <Github className="w-4 h-4 text-stone-700 shrink-0" />
+                <Github className="w-4 h-4 text-stone-900 shrink-0" />
                 <span>GitHub</span>
               </a>
 
-              <span className="text-stone-300 select-none">·</span>
+              <span className="text-stone-400 select-none">·</span>
 
               <a
                 href={PROFILE_DATA.googleScholar}
                 target="_blank"
                 rel="noreferrer noopener"
-                className="inline-flex items-center gap-1.5 font-medium text-stone-900 hover:text-stone-600 hover:underline transition-colors"
+                className="inline-flex items-center gap-1.5 font-medium text-stone-950 hover:text-stone-700 hover:underline transition-colors"
               >
-                <GoogleScholarIcon className="w-4 h-4 text-stone-700 shrink-0" />
+                <GoogleScholarIcon className="w-4 h-4 text-stone-900 shrink-0" />
                 <span>Google Scholar</span>
               </a>
 
-              <span className="text-stone-300 select-none">·</span>
+              <span className="text-stone-400 select-none">·</span>
 
               <a
                 href={PROFILE_DATA.linkedin}
                 target="_blank"
                 rel="noreferrer noopener"
-                className="inline-flex items-center gap-1.5 font-medium text-stone-900 hover:text-stone-600 hover:underline transition-colors"
+                className="inline-flex items-center gap-1.5 font-medium text-stone-950 hover:text-stone-700 hover:underline transition-colors"
               >
-                <Linkedin className="w-4 h-4 text-stone-700 shrink-0" />
+                <Linkedin className="w-4 h-4 text-stone-900 shrink-0" />
                 <span>LinkedIn</span>
               </a>
 
-              <span className="text-stone-300 select-none">·</span>
+              <span className="text-stone-400 select-none">·</span>
 
               <a
                 href={`mailto:${PROFILE_DATA.email}`}
-                className="inline-flex items-center gap-1.5 font-medium text-stone-900 hover:text-stone-600 hover:underline transition-colors"
+                className="inline-flex items-center gap-1.5 font-medium text-stone-950 hover:text-stone-700 hover:underline transition-colors"
               >
-                <Mail className="w-4 h-4 text-stone-700 shrink-0" />
+                <Mail className="w-4 h-4 text-stone-900 shrink-0" />
                 <span>Email</span>
               </a>
 
               {onOpenCV && (
                 <>
-                  <span className="text-stone-300 select-none">·</span>
+                  <span className="text-stone-400 select-none">·</span>
                   <button
                     onClick={onOpenCV}
-                    className="inline-flex items-center gap-1.5 font-semibold text-cyan-700 hover:text-cyan-900 hover:underline transition-colors cursor-pointer"
+                    className="inline-flex items-center gap-1.5 font-semibold text-cyan-800 hover:text-cyan-950 hover:underline transition-colors cursor-pointer"
                     title="View Curriculum Vitae"
                   >
-                    <FileText className="w-4 h-4 text-cyan-700 shrink-0" />
+                    <FileText className="w-4 h-4 text-cyan-800 shrink-0" />
                     <span>CV</span>
                   </button>
                 </>
@@ -124,7 +124,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenCV }) => {
           </div>
 
           {/* Right Column: Narrative Biography */}
-          <div className="md:col-span-8 space-y-4 text-[15px] sm:text-[16px] text-stone-700 leading-relaxed font-normal pt-1">
+          <div className="md:col-span-8 space-y-4 text-[15px] sm:text-[16px] text-stone-900 leading-relaxed font-normal pt-1">
             <h2 className="text-xl sm:text-2xl font-editorial font-medium tracking-tight text-stone-950 pb-1">
               Overview
             </h2>

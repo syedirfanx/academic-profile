@@ -19,14 +19,14 @@ export const ExperienceSection: React.FC = () => {
                 <h3 className="font-editorial font-semibold text-stone-950 text-base sm:text-lg">
                   {exp.role}
                   {exp.organization && (
-                    <span className="font-sans font-normal text-stone-700 text-sm">
+                    <span className="font-sans font-medium text-stone-900 text-sm">
                       {", "}{exp.organization}
                     </span>
                   )}
                 </h3>
-                <span className="text-xs text-stone-500">{exp.period}</span>
+                <span className="text-xs sm:text-sm text-stone-800 font-medium">{exp.period}</span>
               </div>
-              <p className="text-sm text-stone-700 leading-relaxed">
+              <p className="text-sm sm:text-[15px] text-stone-900 leading-relaxed">
                 {exp.description}
               </p>
             </div>

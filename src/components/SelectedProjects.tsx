@@ -23,17 +23,17 @@ export const SelectedProjects: React.FC = () => {
                 <h3 className="font-semibold text-stone-950 text-base">
                   {project.title}
                 </h3>
-                <span className="text-xs sm:text-sm text-stone-500 shrink-0 font-normal">
+                <span className="text-xs sm:text-sm text-stone-800 shrink-0 font-medium">
                   {project.year}
                 </span>
               </div>
 
-              <p className="text-sm text-stone-700 leading-relaxed">
+              <p className="text-sm sm:text-[15px] text-stone-900 leading-relaxed">
                 {project.description}
               </p>
 
-              <div className="flex flex-wrap items-center gap-2 text-xs sm:text-sm text-stone-600 pt-0.5">
-                <span className="font-medium text-stone-800">{project.context}</span>
+              <div className="flex flex-wrap items-center gap-2 text-xs sm:text-sm text-stone-900 pt-0.5">
+                <span className="font-semibold text-stone-950">{project.context}</span>
                 {project.githubUrl && (
                   <>
                     <span className="text-stone-300">·</span>

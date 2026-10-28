@@ -32,7 +32,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#FCFBF8] text-stone-900 flex flex-col font-sans selection:bg-stone-900 selection:text-white">
+    <div className="min-h-screen bg-[#F6F4EF] text-stone-900 flex flex-col font-sans selection:bg-stone-900 selection:text-white">
       {/* Persistent Clean Header */}
       <Header
         activePage={activePage}

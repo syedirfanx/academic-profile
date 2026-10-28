@@ -18,10 +18,10 @@ export const ResearchSection: React.FC = () => {
           {/* MSc Dissertation */}
           <div className="border-t border-stone-200 pt-5 space-y-2">
             <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-1">
-              <span className="font-semibold text-stone-900 text-base">
+              <span className="font-bold text-stone-950 text-base">
                 MSc Dissertation – University of Greenwich
               </span>
-              <span className="text-xs sm:text-sm text-stone-600">
+              <span className="text-xs sm:text-sm text-stone-800 font-medium">
                 2023
               </span>
             </div>
@@ -40,19 +40,19 @@ export const ResearchSection: React.FC = () => {
               </a>
             </div>
 
-            <div className="text-xs sm:text-sm text-stone-600">
-              <strong className="text-stone-800 font-medium">Supervisor:</strong>{' '}
+            <div className="text-xs sm:text-sm text-stone-800">
+              <strong className="text-stone-950 font-semibold">Supervisor:</strong>{' '}
               <a
                 href="https://www.gre.ac.uk/people/rep/faculty-of-engineering-and-science/dr-mohammad-majid-al-rifaie"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="text-cyan-700 hover:text-cyan-900 hover:underline"
+                className="text-cyan-700 hover:text-cyan-900 hover:underline font-medium"
               >
                 Dr. Mohammad Majid al-Rifaie
               </a>
             </div>
 
-            <ul className="space-y-1.5 text-sm text-stone-700 pt-1 list-disc pl-5 leading-relaxed">
+            <ul className="space-y-1.5 text-sm sm:text-[15px] text-stone-900 pt-1 list-disc pl-5 leading-relaxed">
               <li>
                 Applied Particle Swarm Optimization and Dispersive Flies Optimization on high-dimensional dataset up to 2,400 features.
               </li>
@@ -68,10 +68,10 @@ export const ResearchSection: React.FC = () => {
           {/* Undergraduate Research Contribution */}
           <div className="border-t border-stone-200 pt-5 space-y-2">
             <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-1">
-              <span className="font-semibold text-stone-900 text-base">
+              <span className="font-bold text-stone-950 text-base">
                 Undergraduate Research Contribution – North South University
               </span>
-              <span className="text-xs sm:text-sm text-stone-600">
+              <span className="text-xs sm:text-sm text-stone-800 font-medium">
                 2019
               </span>
             </div>
@@ -92,19 +92,19 @@ export const ResearchSection: React.FC = () => {
               )}
             </div>
 
-            <div className="text-xs sm:text-sm text-stone-600">
-              <strong className="text-stone-800 font-medium">Supervisor:</strong>{' '}
+            <div className="text-xs sm:text-sm text-stone-800">
+              <strong className="text-stone-950 font-semibold">Supervisor:</strong>{' '}
               <a
                 href="https://ece.northsouth.edu/people/dr-sifat-momen/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="text-cyan-700 hover:text-cyan-900 hover:underline"
+                className="text-cyan-700 hover:text-cyan-900 hover:underline font-medium"
               >
                 Dr. Sifat Momen
               </a>
             </div>
 
-            <ul className="space-y-1.5 text-sm text-stone-700 pt-1 list-disc pl-5 leading-relaxed">
+            <ul className="space-y-1.5 text-sm sm:text-[15px] text-stone-900 pt-1 list-disc pl-5 leading-relaxed">
               <li>
                 Contributed as a co-author to a machine learning study on rice leaf disease detection by implementing data preprocessing and augmentation, conducting the literature review, and contributing to the technical report.
               </li>

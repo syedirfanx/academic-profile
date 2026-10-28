@@ -12,8 +12,8 @@ export const PhDGoalSection: React.FC = () => {
           </h2>
         </div>
 
-        <div className="space-y-6 text-sm text-stone-700 leading-relaxed max-w-4xl">
-          <p className="text-sm sm:text-[15px]">
+        <div className="space-y-6 text-stone-900 leading-relaxed max-w-4xl">
+          <p className="text-[15px] sm:text-[16px]">
             My research interests span <strong className="font-semibold text-stone-950">machine learning, deep learning, representation learning, large language models, multimodal AI, and optimization</strong>, with a focus on learning from complex and high-dimensional data.
           </p>
 
@@ -24,18 +24,18 @@ export const PhDGoalSection: React.FC = () => {
                 key={theme.title}
                 className="border-t-2 border-stone-800 pt-2.5 space-y-1.5"
               >
-                <h3 className="text-base font-editorial font-semibold text-stone-900">
+                <h3 className="text-base font-editorial font-semibold text-stone-950">
                   {theme.title}
                 </h3>
 
-                <div className="text-sm text-stone-700 font-normal leading-relaxed">
+                <div className="text-sm sm:text-[15px] text-stone-900 font-normal leading-relaxed">
                   {theme.topics.join(' · ')}
                 </div>
               </div>
             ))}
           </div>
 
-          <p className="text-sm sm:text-[15px]">
+          <p className="text-[15px] sm:text-[16px]">
             I am particularly interested in developing <strong className="font-semibold text-stone-950">robust, transferable, and efficient learning systems</strong> and exploring how representations, foundation models, and multimodal information can be effectively combined.
           </p>
         </div>

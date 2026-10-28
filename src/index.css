@@ -13,8 +13,10 @@
 
   body {
     font-family: var(--font-sans);
-    background-color: #FCFBF8;
-    color: #1c1917;
+    background-color: #F6F4EF;
+    color: #0f172a;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   h1, h2, h3, .font-editorial {
